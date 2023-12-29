@@ -61,7 +61,7 @@ const Signup = () => {
                 })
               }
             />
-               <Input
+            <Input
               label="Email"
               placeholder="Enter your email"
               type="email"
