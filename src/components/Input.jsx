@@ -1,4 +1,5 @@
-import { useId } from "react";
+/* eslint-disable react/display-name */
+/* eslint-disable react/prop-types */
 import React, { useId } from "react";
 
 const Input = React.forwardRef(

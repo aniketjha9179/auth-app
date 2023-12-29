@@ -1,3 +1,5 @@
+/* eslint-disable react-refresh/only-export-components */
+/* eslint-disable react/prop-types */
 import React, { useId } from "react";
 
 const Select = ({ options, label, className = "", ...props }, ref) => {
@@ -13,7 +15,7 @@ const Select = ({ options, label, className = "", ...props }, ref) => {
       >
         {options?.map((option)=>(
             <option value={option} key={option}> 
-                {}
+                {option}
             </option>
         ))}
       
@@ -22,4 +24,4 @@ const Select = ({ options, label, className = "", ...props }, ref) => {
   );
 };
 
-export default Select;
+export default React.forwardRef(Select); 
