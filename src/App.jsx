@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
@@ -26,11 +27,12 @@ const App = () => {
     
   },[])
   return !loading ? (
-    <div className=" min-h-screen flex flex-wrap content-between  bg-slate-400">
+    <div className=" min-h-screen flex flex-wrap content-between  place-content-center   bg-slate-100 radial-blue  	  ">
       <div className=" w-full block">
         <Header />
         <main>
-        todo :   <Outlet />
+       {/* <p className=" flex justify-center items-center font-semibold  text-[#F13C6F]"> All posts </p> */}
+        <Outlet />
         </main>
         <Footer />
       </div>
