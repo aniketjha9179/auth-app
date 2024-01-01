@@ -25,7 +25,7 @@ function Footer() {
                           <a href="#" className="hover:underline"> f</a>
                       </li>
                       <li>
-                          <a href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</a>
+                          <a href="#" className="hover:underline">Tailwind CSS</a>
                       </li>
                   </ul>
               </div>
@@ -36,12 +36,12 @@ function Footer() {
                           <a href="https://github.com/aniketjha9179" className="hover:underline ">
                             <img
                             className=' relative  h4 w-4  transition-all hover:scale-125'
-                            src='/public/github-icon-1.svg' />
+                            src='/github-icon-1.svg' />
                           </a>
                       </li>
                       <li>
                           <a href="https://twitter.com/aniketJha91" className="hover:underline flex   ">
-                            <img className=' relative  h-4 w-4 transition-all hover:scale-125' src='/public/twitter-logo-2.svg'/>
+                            <img className=' relative  h-4 w-4 transition-all hover:scale-125' src='/twitter-logo-2.svg'/>
                             
                           </a>
                       </li>
