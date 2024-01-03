@@ -32,6 +32,7 @@ function Home() {
                                 <Link to={'/login'}>
                                 Login to read posts
                                 </Link>
+                                its a simple blogs writing project
 
                             </h1>
                         </div>
